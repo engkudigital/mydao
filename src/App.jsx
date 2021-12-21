@@ -154,7 +154,8 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to Be Good DAO</h1>
+      <img
+        <h1>Welcome to BeGoodDAO</h1>
         <button onClick={() => connectWallet("injected")} className="btn-gradient btn-hero">
           connect your wallet
         </button>
@@ -317,9 +318,9 @@ const App = () => {
   };
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🧠 DAO membership NFT</h1>
+      <h1>Mint your NFT to enjoy our cool stuff just for DAO members only</h1>
       <button disabled={isClaiming} onClick={() => mintNFT()}>
-        {isClaiming ? "Minting..." : "Mint your DAO Token (FREE)"}
+        {isClaiming ? "Minting..." : "Mint now to gain access(FREE)"}
       </button>
       <div className="footer-container" />
     </div>
