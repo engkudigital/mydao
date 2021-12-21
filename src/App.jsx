@@ -154,8 +154,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-      <img
-        <h1>Welcome to BeGoodDAO</h1>
+        <h1>Welcome to BeGoodDAO &#9829;</h1>
         <button onClick={() => connectWallet("injected")} className="btn-gradient btn-hero">
           connect your wallet
         </button>
