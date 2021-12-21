@@ -155,7 +155,7 @@ const App = () => {
     return (
       <div className="landing">
         <h1>Welcome to Be Good DAO</h1>
-        <button onClick={() => connectWallet("injected")} className="btn-hero">
+        <button onClick={() => connectWallet("injected")} className="btn-gradient btn-hero">
           connect your wallet
         </button>
         <div className="footer-container" />
